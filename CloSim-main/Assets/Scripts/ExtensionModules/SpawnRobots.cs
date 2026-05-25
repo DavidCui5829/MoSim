@@ -14,6 +14,8 @@ public class SpawnRobots : MonoBehaviour
 
     void Start()
     {
+        return;
+        
         var pads = Gamepad.all;
 
         if (pads.Count < 2)
